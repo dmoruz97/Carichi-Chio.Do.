@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/label_modificaArticolo_nome"
+            android:textAlignment="center"
+            android:textColor="#808080" />
+
+        <EditText
+            android:id="@+id/new_nome_articolo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints="@string/hint_modificaArticolo_nome"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/hint_modificaArticolo_nome"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/orange"
+            android:textColorLink="@color/orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/label_modificaArticolo_unitaMisura"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/new_quantita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:autofillHints="@string/hint_modificaArticolo_unitaMisura"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/hint_modificaArticolo_unitaMisura"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            android:textColorHighlight="@color/orange"
+            android:textColorLink="@color/orange" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:text="@string/label_modificaArticolo_categoria"
+            android:textAlignment="center" />
+
+        <AutoCompleteTextView
+            android:id="@+id/new_categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:hint="@string/hint_modificaArticolo_categoria"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

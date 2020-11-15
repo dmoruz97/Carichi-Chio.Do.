@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Carichi Chio.Do.</string>
+
+    <!-- Database -->
+    <string name="DB_NAME">carichi_chiodo</string>
+    <!-- General -->
+    <string name="logo_chiodo">Logo Chio.Do.</string>
+    <string name="icona_articolo">Icona articolo</string>
+
+    <!-- Carichi -->
+    <string name="title_carichi">Carichi Chio.Do.</string>
+    <string name="title_add_carico">AGGIUNGI CARICO</string>
+
+    <string name="label_articolo">Articolo:</string>
+    <string name="label_quantita">Quantità:</string>
+    <string name="label_note">Note:</string>
+    <string name="label_firma">Firma:</string>
+
+    <string name="hint_quantita">1</string>
+    <string name="hint_note">Note sul carico</string>
+    <string name="hint_firma">Firma</string>
+
+    <string name="confirm_button">CONFERMA</string>
+
+    <!-- Admin -->
+    <string name="title_admin">Admin Chio.Do.</string>
+    <string name="title_admin_page">PAGINA ADMIN</string>
+    <string name="search_bar_hint_articolo">Cerca un articolo</string>
+    <string name="search_bar_hint_carico">Cerca un carico</string>
+    <string name="download_csv">SCARICA CSV</string>
+    <string name="insert_password">Inserisci la password</string>
+    <string name="hint_password">Password</string>
+
+    <string name="admin_just">ADMIN</string>
+    <string name="tab_articoli">ARTICOLI</string>
+    <string name="tab_carichi">CARICHI</string>
+
+    <string name="button_conferma">CONFERMA</string>
+
+    <string name="fab_addArticoli">Aggiungi articolo</string>
+    <string name="fab_plus_sign">+</string>
+
+    <string name="label_editArticolo_button">MODIFICA</string>
+    <string name="label_deleteArticolo_button">ELIMINA</string>
+
+    <string name="label_modificaArticolo_nome">Nome articolo:</string>
+    <string name="label_modificaArticolo_unitaMisura">Unità di misura:</string>
+    <string name="label_modificaArticolo_categoria">Categoria:</string>
+
+    <string name="hint_modificaArticolo_nome">Nome articolo</string>
+    <string name="hint_modificaArticolo_unitaMisura">Unità di misura</string>
+    <string name="hint_modificaArticolo_categoria">Categoria</string>
+
+
+
+    <string name="label_modificaCarico_nome">Nome articolo:</string>
+    <string name="label_modificaCarico_quantita">Quantità:</string>
+    <string name="label_modificaCarico_data">Data:</string>
+    <string name="label_modificaCarico_ora">Ora:</string>
+    <string name="label_modificaCarico_firma">Firma:</string>
+    <string name="label_modificaCarico_note">Note:</string>
+
+    <string name="hint_modificaCarico_nome">Nome articolo</string>
+    <string name="hint_modificaCarico_quantita">1</string>
+    <string name="hint_modificaCarico_data">gg/mm/aaaa</string>
+    <string name="hint_modificaCarico_ora">hh:mm</string>
+    <string name="hint_modificaCarico_firma">Firma</string>
+    <string name="hint_modificaCarico_note">note</string>
+
+    <!-- Stats -->
+    <string name="title_stats">Statistiche Chio.Do.</string>
+    <string name="label_pieChart">% Categorie</string>
+    <string name="label_lineChart">Carichi giornalieri</string>
+
+    <!-- Bottom Navigation -->
+    <string name="carichi_name">Carichi</string>
+    <string name="admin_name">Admin</string>
+    <string name="stats_name">Statistiche</string>
+
+    <!-- Activities -->
+    <string name="add_carico_activity">add_carico</string>
+    <string name="admin_page_activity">add_carico</string>
+
+</resources>
